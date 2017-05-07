@@ -1,0 +1,33 @@
+{
+  "name": "chatbots",
+  "version": "1.0.0",
+  "description": "A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, Passport, & Redis.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "url": "git+https://github.com/kau1992/chatbots.git",
+    "type": "git"
+  },
+  "author": "kaushik sutariya<kau.sutariya@gmail.com>",
+  "homepage": "https://github.com/kau1992/chatbots",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.3.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "mongoose": "^4.7.5",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "redis": "^2.6.2",
+    "socket.io": "^1.4.8",
+    "socket.io-redis": "^4.0.0",
+    "winston": "^2.2.0"
+  }
+}
